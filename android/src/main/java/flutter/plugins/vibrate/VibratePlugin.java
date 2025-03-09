@@ -2,6 +2,7 @@ package flutter.plugins.vibrate;
 
 import android.content.Context;
 import android.os.Vibrator;
+import android.widget.Toast;
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.plugin.common.BinaryMessenger;
