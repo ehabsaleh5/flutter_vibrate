@@ -22,7 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17  // Use JVM 17 for Java
         targetCompatibility = JavaVersion.VERSION_17  // Use JVM 17 for Java
@@ -31,8 +31,8 @@ android {
     
 
     defaultConfig {
-        minSdkVersion 16
-        targetSdkVersion 28
+        minSdkVersion 21
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
